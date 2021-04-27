@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test - site</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=3fd797f9-e0f3-406b-8484-5f96fa36e3b6&lang=ru_RU"
+		type="text/javascript">
+		</script>
+</head>
+
+<body>
+<header class="header" id="header">
+	<section class="top-header">
+		<div class="top-header-info">
+			<div class="adress">
+				<div class="img-adress">
+					<img src="assets/img/point.png">
+				</div>
+				<div class="text-adress">
+					443017, г. Гродно, ул. Пестрака 36Б, оф. 2
+				</div>
+
+			</div>
+			<a href="mailto:pvs-tech@yandex.ru" class="email">
+				<img src="assets/img/email.png">
+				<span class="email-text">pvs-tech@yandex.ru</span>
+			</a>
+			<a href="tel:+375298870213" class="phone">
+				<img src="assets/img/phone.png">
+				<span class="phone-text">+375 29 887 02 13</span>
+			</a>
+		</div>
+	</section>
+
+	<section class="header-menu">
+		<div class="logo-header">
+			<img src="assets/img/logotype.png">
+		</div>
+		<div class="list-menu">
+			<ul class="menu-ul">
+				<li><a href="index.php">Главная</a></li>
+				<li><a href="about.php">О нас</a></li>
+				<li><a href="services.php">Услуги</a></li>
+				<li><a href="contacts.php">Контакты</a></li>
+			</ul>
+
+		</div>
+	</section>
+</header>
+
+	<div class="contacts">
+		<div class="container">
+			<div class="contacts-inner">
+				<h2>Контакты</h2>
+				<div class="contacts-block">
+					<div class="contact-block">
+						<span>Наш адрес</span>
+						<a>г. Гродно, ул. Пестрака 36Б, оф. 2</a>
+					</div>
+					<div class="contact-block">
+						<span>Наш телефон</span>
+						<a href="tel:+375298870213">+375 29 887 02 13</a>
+					</div>
+					<div class="contact-block">
+						<span>Напиша почта</span>
+						<a href="mailto:pvs-tech@yandex.ru">pvs-tech@yandex.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="map" style="width: 100%; height: 400px; margin-top: 50px"></div>
+	</div>
+
+	<section class="last-section">
+		<div class="last-section-content">
+			<div class="last-section-title">
+				Остались вопросы? Оставьте заявку и наш менеджер перезвонит вам в течении 15 минут
+			</div>
+			<input type="text" class="names-input input" placeholder="Имя">
+			<input type="tel" class="names-input-phone input" placeholder="Телефон">
+			<button class="last-btn">Оставить заявку</button>
+		</div>
+		<div class="last-blue-bg"></div>
+	</section>
+
+	<section class="footer-links">
+		<div class="footer-blocks">
+			<div class="footer-block-first">
+				<ul>
+					<li>
+						<a href="https://docviewer.yandex.by/view/0/?*=bBWLbw9DXZsiPAFV%2BuXIF5bKRaF7InVybCI6InlhLWJyb3dzZXI6Ly80RFQxdVhFUFJySlJYbFVGb2V3cnVGNEc1d0ZURUhlWmc0UkRvb0Q0QkNaTk8xOWU5aWZEdmQ3QXZ1ejN5elA4emx6UGx2czRHb2hSRnhUZkotU1h1TEg2emRLNnIxckFUXzJCaHRETGZJN3QwUHBpeTkzWFFNWldrLTdBVW9sOHJpa2luVGhuQnJieWlQblkzRXpPcGc9PT9zaWduPURXWWFDUzJ4YkRMMXFhY0NPUzZYdEtQelBaWF9FQXBQXzZ3bC1XUXczQzg9IiwidGl0bGUiOiIxNjAxOTcyNzIyLdCQ0YPRgtGB0L7RgNGB0LjQvdCzINCe0KIuZG9jeCIsIm5vaWZyYW1lIjpmYWxzZSwidWlkIjoiMCIsInRzIjoxNjA1MzU4OTEwMDEyLCJ5dSI6IjQ2OTY0MDQ0NjE1Nzk3NzMzMDYifQ%3D%3D"
+							class="footer-link">Аутсорсинг охраны</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link"> Аттестация рабочих мест</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link"> Программа производственного контроля</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link"> Учебный центр</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-block-second">
+				<ul>
+					<li>
+						<a href="index.php" class="footer-link">Главная</a>
+					</li>
+					<li>
+						<a href="about.php" class="footer-link">О нас</a>
+					</li>
+					<li>
+						<a href="services.php" class="footer-link">Услуги</a>
+					</li>
+					<li>
+						<a href="contacts.php" class="footer-link">Контакты</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-content-block">
+				<div class="footer-adress">
+					<img src="assets/img/location.svg" alt="location" class="adress-img">
+					<div class="adress-descr">
+						<span> Адрес: <br></span> ул. Пестрака 36Б, оф. 2
+					</div>
+				</div>
+				<div class="footer-phone">
+					<img src="assets/img/footer-phone.svg" alt="phone" class="adress-img">
+					<div class="adress-descr">
+						<span> Телефоны:<br></span>
+						<a href="tel:+375298870213">+375 29 887 02 13</a><br>
+						<a href="tel:+375298870213">+375 29 887 02 13</a>
+					</div>
+				</div>
+				<div class="footer-email">
+					<img src="assets/img/footer-email.svg" alt="email" class="adress-img">
+					<div class="adress-descr">
+						<span> E-mail:<br></span>
+						<a href="mailto:pvs-teh@yandex.ru">pvs-teh@yandex.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer-blocks-content">
+		<div class="footer-content">
+			<div class="footer-left-part">
+				© 2020, Поволжские Сервисные Технологии
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/index.js"></script>
+
+	
+
+	<script type="text/javascript">
+		ymaps.ready(init);
+		function init() {
+			// Создание карты.
+			var myMap = new ymaps.Map("map", {
+				center: [53.653757, 23.837012],
+				zoom: 16
+			});
+
+			// Создание геообъекта с типом точка (метка).
+			var myGeoObject = new ymaps.GeoObject({
+				geometry: {
+					type: "Point", // тип геометрии - точка
+					coordinates: [53.653757, 23.837012] // координаты точки
+				}
+			});
+
+			// Размещение геообъекта на карте.
+			myMap.geoObjects.add(myGeoObject);
+		}
+	</script>
+</body>
+
+</html>
