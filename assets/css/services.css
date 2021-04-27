@@ -1,0 +1,156 @@
+
+
+.services {
+    padding: 20px 0 40px;
+}
+
+.services h2 {
+    margin: 30px 0;
+}
+
+.material-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.material-item {
+    padding: 20px 0;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #eee;
+    transition: .5s all;
+    margin-bottom: 20px;
+}
+
+.material-item:hover {
+    color: #626262;
+    box-shadow: 0 0.6rem 1.1rem rgb(0 0 0 / 15%);
+}
+
+.material-item img {
+    width: 85%;
+    object-fit: contain;
+}
+
+.material-item span {
+    width: 90%;
+    text-align: center;
+}
+
+.material-item .btn-openForm {
+    width: auto;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+    background: #432668;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .5s all;
+}
+
+.material-item .btn-openForm:hover {
+    background: #7c5a9e;
+}
+
+.material-item h4 {
+    text-align: center;
+}
+
+.blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+.material-item__form {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.material-item__form-active {
+    display: flex;
+}
+
+.material-item__form .content {
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.material-item__form .content p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.material-item__form .content input {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 7px;
+}
+
+.material-item__form .content button {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+    background: rgb(66, 221, 66);
+    transition: .5s all ease-out;
+}
+
+.material-item__form .content button:hover {
+    background: rgb(29, 112, 29);
+}
+
+.material-item__form .content .close {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    right: -25px;
+    cursor: pointer;
+}
+
+.material-item__form .content .close::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+
+.material-item__form .content .close::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(-45deg);
+}
