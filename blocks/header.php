@@ -27,10 +27,10 @@
 		</div>
 		<div class="list-menu">
 			<ul class="menu-ul">
-				<li><a href="index.php">Главная</a></li>
-				<li><a href="about.php">О нас</a></li>
-				<li><a href="services.php">Услуги</a></li>
-				<li><a href="contacts.php">Контакты</a></li>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="about.html">О нас</a></li>
+				<li><a href="services.html">Услуги</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
 			</ul>
 
 		</div>

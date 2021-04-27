@@ -32,16 +32,16 @@
 			<div class="footer-block-second">
 				<ul>
 					<li>
-						<a href="index.php" class="footer-link">Главная</a>
+						<a href="index.html" class="footer-link">Главная</a>
 					</li>
 					<li>
-						<a href="about.php" class="footer-link">О нас</a>
+						<a href="about.html" class="footer-link">О нас</a>
 					</li>
 					<li>
-						<a href="services.php" class="footer-link">Услуги</a>
+						<a href="services.html" class="footer-link">Услуги</a>
 					</li>
 					<li>
-						<a href="contacts.php" class="footer-link">Контакты</a>
+						<a href="contacts.html" class="footer-link">Контакты</a>
 					</li>
 				</ul>
 			</div>
